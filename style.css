@@ -1,0 +1,107 @@
+body {
+  background-color: white;
+    font-family: inherit;
+}
+div {
+  height: 650px;
+    width: 400px;
+    background-color: red;
+    text-align: center;
+    margin: 40px auto;
+    padding: 3px 5px 7px;
+    box-shadow: 1px 3px 6px;
+    border-radius: 20px;
+}
+h1 {
+  font-size: 15px;
+   color: white;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+h2 {
+    font-family: cursive;
+  color: yellow;
+    font-size: 25px;
+}
+#sherab{
+  font-size: 35px;
+  color: white;
+    font-family:sans-serif;
+    margin-top: -25px;
+}
+img {
+  width: 200px;
+}
+h3 {
+  font-size: 25px;
+    color: orange;
+    font-family: sans-serif;
+    
+}
+h4 {
+  font-size:25px;
+    color: white;
+   margin-top: 5px;
+    font-family: sans-serif;
+}
+h5 {
+  font-size:20px;
+    color: orange;
+    margin-top: -25px;
+}
+h6 {
+    font-size:15px;
+    color: white;
+     margin-top: -25px;
+    font-family: sans-serif;
+}
+
+@media(min-width:320px){
+    div {
+        width: 320px;
+    }
+}
+
+@media(min-width:320px) and (max-width:480px){
+    div {
+        width: 270px;
+        height: 299px;
+        font-size: 80px;
+        background-color: brown;
+    }
+    h1 {
+      color: rgba(0, 255, 255, 0.9);
+    }
+    h2 {
+      font-size: 16px;
+    }
+    #sherab{
+        font-size: 15px;
+        padding: 7px;
+    }
+    img {
+      width: 90px;
+        height: 90px;
+        margin-right: 5px;
+    }
+    h3 {
+      font-size: 15px;
+        color: #00ff00;
+        margin-top: -5%;
+    }
+    h4 {
+      font-size: 15px;
+        color: #0000ff;
+        margin-top: -10px;
+    }
+    h5 {
+      font-size: 8px;
+        color: rgb(0, 0, 0); 
+        margin-top: -18px;
+
+    }
+    h6 {
+      font-size: 5px;
+        margin-top: -10px;
+    }
+}
